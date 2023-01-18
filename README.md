@@ -7,7 +7,7 @@ This is part of my JavaScript learning journey tutorial @Microsoftlearn.This rep
 ```
 let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Neapolitan", "Mint Chip", "Raspberry"];
 
-``
+```
 ## 2.Categorize the flavors by modifying the above code to:
 ```
 let iceCreamFlavors = [

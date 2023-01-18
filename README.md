@@ -39,11 +39,11 @@ transactions.push({ scoops: ["Vanilla", "Vanilla"], total: 4 })
 That simulates three customer interactions. Next, you want to analyze the result.
 # Analyze your business
 ## 1.To calculate your earnings, add the following code:
-``
+```
 const total = transactions.reduce((acc, curr) => acc + curr.total, 0);
 console.log(`You've made ${total} $ today`); // You've made 11.5 $ today
 
-``
+```
 ## 2.To find out how much you've sold of each flavor, add the following code:
 ```
 let flavorDistribution = transactions.reduce((acc, curr) => {
